@@ -1,0 +1,5 @@
+.DS_Store
+# Real client configuration and state live in ~/.config/inqdo-team-ops/, never in this repo.
+clients.json
+state/
+*.local.json

@@ -1,0 +1,11 @@
+{
+  "name": "inqdo-team-ops",
+  "owner": { "name": "inQdo" },
+  "plugins": [
+    {
+      "name": "inqdo-team-ops",
+      "source": "./",
+      "description": "Read-only Jira queue monitor for inQdo operations teams."
+    }
+  ]
+}

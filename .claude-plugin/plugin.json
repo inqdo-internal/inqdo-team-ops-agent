@@ -1,0 +1,6 @@
+{
+  "name": "inqdo-team-ops",
+  "version": "0.1.0",
+  "description": "Read-only Jira queue monitor for inQdo operations teams. Reports new and updated tickets per client, flags P1 tickets and checks the Daily Check task.",
+  "author": { "name": "inQdo" }
+}

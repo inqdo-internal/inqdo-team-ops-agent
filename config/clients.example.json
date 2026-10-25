@@ -1,0 +1,17 @@
+{
+  "jiraSite": "your-site.atlassian.net",
+  "clients": {
+    "client-a": {
+      "displayName": "Client A",
+      "project": "Client A Service Desk",
+      "queueJql": "project = \"Client A Service Desk\" AND type not in (Re-Deployment, \"Initial Deployment\") AND status not in (done, resolved) ORDER BY updated DESC, status DESC",
+      "dailyCheckJql": "project = \"Client A Service Desk\" AND summary ~ \"Daily Check\" ORDER BY created DESC"
+    }
+  },
+  "p1PriorityPrefix": "P1",
+  "p1ResponseMinutes": 60,
+  "noiseSummaryPatterns": [
+    "Monitoring Notification"
+  ],
+  "workdayStart": "08:00"
+}
