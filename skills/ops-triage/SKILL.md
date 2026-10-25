@@ -36,7 +36,7 @@ For each open P1:
 
 - State the age and whether the one-hour response target is met, breached or still running. A response is a comment by an inQdo colleague, so check the comments. If you cannot tell, say that.
 - Say who it is assigned to, or "unassigned".
-- Add a **draft notification** the colleague can copy: one short paragraph for the rest of the client team and the account manager, with ticket key, summary, priority, status, assignee and the response status. Draft only. This tool is read-only and never sends anything.
+- Add a **draft Jira comment** the colleague can paste into the ticket to inform the rest of the client team and the account manager. We inform people with a comment on the ticket, not by email. Keep it to two or three lines: what is happening, who has picked it up, and the response status. Leave the @mentions for the colleague to add. Draft only. This tool is read-only and never posts anything.
 
 A P1 that is unassigned or past the response target is the first line of the whole report.
 
@@ -57,7 +57,7 @@ Plain markdown, in this order, skipping empty sections. One client per report, w
 Window: <from> to <to>
 
 ## Needs action now
-<P1 items with draft notification, breached response targets>
+<P1 items with draft Jira comment, breached response targets>
 
 ## Daily Check
 <one line>

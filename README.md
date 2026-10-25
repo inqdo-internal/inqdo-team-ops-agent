@@ -42,7 +42,7 @@ Please keep it that way:
 1. Run the client's queue filter and the Daily Check filter.
 2. Compare with the state of the last check to find new, updated and gone tickets.
 3. Sort tickets into P1, Daily Check, automated notifications, waiting for us, waiting for others.
-4. Report. For every open P1: age, whether the one-hour response target is met, assignee and a draft message for the client team and account manager. The draft is never sent.
+4. Report. For every open P1: age, whether the one-hour response target is met, assignee and a draft Jira comment to inform the client team and account manager. The draft is never posted. You paste it into the ticket yourself.
 
 The rules are in `skills/ops-triage/SKILL.md`. Change them there, for example the noise patterns or how stale a waiting ticket must be.
 
